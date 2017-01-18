@@ -1,0 +1,21 @@
+1; The Duck: This is turning into the strangest day of my life.
+1; Heh: Well considering most of your life was probably spent waddling around a pond, that's not surprising.
+1; The Duck: You're a great conversationalist.
+1; Heh: Speak for yourself, you only learnt how to talk a few minutes ago.
+1; The Duck: So where are we now?
+1; Heh: This is Napoleonic France. And we're here for Napoleon himself.
+1; The Duck: You do realise I have no idea who any of these people are?
+1; Heh: Oh I know you don't, but the players probably do.
+1; The Duck: What?
+1; Heh: Heheheh, nevermind.
+1; Heh: Hey look, here comes out target.
+2; Napoleon: Bonjour messieurs.
+2; Napoleon: Ah, a duck and a frog. How fantastic an opportunity. 
+2; The Duck: Opportunity?
+2; Napoleon: Ah little duck. You see, I have a taste for Duck L'Orange and Frogs Legs.
+2; Heh: Ah! Not again!
+2; The Duck: Not a chance Napoleon, we're not here to be eaten.
+2; The Duck: We're here to play cards.
+2; Napoleon: Fantastique! No man in France dares to challenge me, so I am impressed by your bravery little duck.
+2; Heh: Shut your trap and play the cards Frenchie!
+2; Napoleon: What a sassy little frog! Very well then, let us play.

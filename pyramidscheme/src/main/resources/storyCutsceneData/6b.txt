@@ -1,0 +1,9 @@
+1; Adolf: Nein, Nein, Nein, Nein, Nein!
+1; Heh: Heheheh, suck it Hitler.
+1; Adolf: Diese Ente ist zu gut an den Karten. Es ist nicht möglich.
+1; Heh: Sie stinken. Heheheh.
+1; Heh: Anyway, well done Ducky. Can I call you ducky?
+1; The Duck: No.
+1; Adolf: Raus hier!
+1; Heh: Hehehe cool it hot-head. Let's get out of here.
+0; portal

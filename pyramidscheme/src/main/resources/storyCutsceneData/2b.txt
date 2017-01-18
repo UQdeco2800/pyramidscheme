@@ -1,0 +1,16 @@
+1; Guard: Unbelievable!
+1; Br'ock: You see!?
+1; Guard: I'm the best card player in the royal garrison.
+1; Br'ock: Beaten by a duck!
+1; Guard: Some foul sorcery must be at play here.
+1; Br'ock: A magic duck?
+1; Guard: There is no doubt.
+1; Br'ock: A demon duck!
+1; Guard: Treason.
+1; Guard: What say you duck, in your defense? 
+1; You quack in a panic, attempting to protest your innocence to the guard.
+1; Guard: Enough! I do not understand your foul demon tongue.
+1; Guard: The High Priestess will decide your fate, for she is wise and will judge you harshly.
+1; Br'ock: Drown the demon! Throw the duck in the Nile!
+1; Br'ock: Wait...
+1; Guard: Step aside Br'ock! I'm taking the duck.

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<AnchorPane id="AnchorPane" fx:id="basicMatchScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #4AC66D;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uq.deco2800.pyramidscheme.controllers.BasicMatchController">
+    <children>
+	    <ImageView fitHeight="600.0" fitWidth="900.0" layoutX="-2.0" layoutY="-1.0">
+		    <image>
+			    <Image url="@../gameImages/matchBackground.png" />
+		    </image>
+	    </ImageView>
+ 		<TextFlow fx:id="opponentsData" prefHeight="30.0" prefWidth="900.0" AnchorPane.topAnchor="0.0" />
+ 		<StackPane fx:id="matchPane" prefHeight="510.0" prefWidth="900.0" AnchorPane.topAnchor="30.0" />
+ 		<TextFlow fx:id="usersData" prefHeight="30.0" prefWidth="900.0" AnchorPane.bottomAnchor="30.0" />
+ 		<TextFlow id="userGraveyard" fx:id="userGraveyard" prefHeight="30.0" prefWidth="150.0" AnchorPane.bottomAnchor="60.0" AnchorPane.rightAnchor="0.0" />
+ 		<TextFlow id="userDeck" fx:id="userDeck" prefHeight="30.0" prefWidth="150.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="30.0" />
+ 		<VBox AnchorPane.bottomAnchor="110.0" AnchorPane.leftAnchor="30.0">
+ 			<children>
+ 				<ImageView id="championImage" fx:id="championImage" fitHeight="150.0" pickOnBounds="true" preserveRatio="true" />
+ 				<HBox>
+					<Button id="primaryAbilityButton" fx:id="primaryAbilityButton" mnemonicParsing="false" style="-fx-background-color: Transparent;">
+						<graphic>
+							<ImageView id="primaryAbilityImage" fx:id="primaryAbilityImage" fitHeight="40.0" pickOnBounds="true" preserveRatio="true" />
+						</graphic>
+					</Button>
+					<Button id="secondaryAbilityButton" fx:id="secondaryAbilityButton" mnemonicParsing="false" style="-fx-background-color: Transparent;">
+						<graphic>
+							<ImageView id="secondaryAbilityImage" fx:id="secondaryAbilityImage" fitHeight="30.0" pickOnBounds="true" preserveRatio="true" />
+						</graphic>
+					</Button>
+				</HBox>
+
+	 		</children>
+ 		</VBox>
+ 		<HBox AnchorPane.bottomAnchor="0.0">
+ 			<children>
+ 				<Button id="backButton" fx:id="backButton" maxWidth="100.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="900.0" style="-fx-background-color: #33994D;" text="Back" textFill="WHITE">
+ 					<tooltip>
+            			<Tooltip text="Go back to main menu" />
+         			</tooltip>
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+ 				</Button>
+ 				<Button id="passTurnButton" fx:id="passTurnButton" maxWidth="100.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="900.0" style="-fx-background-color: #33994D;" text="Pass Turn" textFill="WHITE">
+ 				<tooltip>
+            		<Tooltip text="Pass for one turn" />
+         		</tooltip>
+         		<HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+ 				</Button>
+ 				<Button id="toggleCardView" fx:id="toggleCardView" mnemonicParsing="false" prefHeight="30.0" style="-fx-background-color: #33994D;"  textFill="WHITE">
+ 				<graphic>
+					<ImageView id="toggleCardImage" fx:id="toggleCardImage" fitHeight="30.0" pickOnBounds="true" preserveRatio="true" />
+				</graphic>
+ 				<tooltip>
+            		<Tooltip text="Toggle Card View" />
+         		</tooltip>
+ 				</Button>
+			</children>
+		</HBox>
+      <AnchorPane fx:id="animationPane" layoutY="30.0" prefHeight="597.0" prefWidth="846.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+1; The Duck: Ouch! What the quack?! Where am I?
+1; Heh: Hmmm, there seems to be something interfering with my time travel. Apep must be growing stronger.
+1; It seems you've been sent to an alternate dimension. I can maintain contact but can't reach you directly.
+1; Heh: Here, let me possess you so I can see through your eyes.
+1; The Duck: Possess me?
+1; Heh: Oh don't worry, I'm a professional at this stuff. Heheheh.
+2; Heh: Alright, I'm in. See? No problem.
+2; The Duck: Where am I? And what are those weird looking camels?
+2; Heh: I don't know, but the graphics here are terrible! This place must have been created by one of the other gods.
+2; The Duck: I don't like this place one bit.
+2; Heh: Such poor craftmanship... Three dimensions! What were they thinking?
+3; The Duck: Hey look, that grass is moving.
+3; Heh: I don't think that's grass. But it's impossible to tell with this much resolution.
+3; The Duck: Oh it's a cute little cathikari.
+3; Heh: That is no little cathikari that is a very big cathikari...
+4; Heh: Try not to move, it might not see us...
+4; Heh: Well... you anyway. Heheheh.
+4; The Duck: Okay I've had enough of this place. Let's get out of here...
+4; Heh: I'm trying. Just chill for a moment will you?
+5; The Duck: Oh, I think he's seen me.
+5; The Duck: Quick get me out of here!
+5; Heh: Relax he probably just wants to eat you or use you as a chew toy.
+5; The Duck: I don't like either of those options.
+6; Lion: You do realise I can hear you. And yes you do look like a tasty chew toy.
+6; The Duck: Squeak!!
+6; Lion: Hhmmm, I see you've brought a deck of cards with you. Let's make a deal.
+6; Lion: If you beat me in a game of Pyramid Scheme I''l let you leave alive.
+6; Lion: But if I win you have to stay here and be my chew toy.
+6; Heh: Well at least he didn't ask to eat you, that gag as been overplayed.
+6; Heh: Heheheh.
+6; The Duck: Deal. Let's do this.

@@ -1,0 +1,11 @@
+1; Heh: Well I think that went rather well.
+1; The Duck: Yeah, I guess I'm just that good.
+1; Heh: Don't get cocky duck, this next opponent is a real menace.
+1; The Duck: I dunno, at this rate I don't see how even the darkest of Lords could stand against me.
+1; The Duck: So who is my next challenger?
+2; Heh: Duck Vader. Only he could be so bold.
+2; Duck Vader: I've been waiting for you Heh, we meet again at last.
+2; Duck Vader: I want to know about your secret rebel plans to defeat Apophis, the rightful God of Chaos.
+2; Heh: I don't know what you're talking about.
+2; Duck Vader: You are part of the rebel alliance and a traitor.
+2; Duck Vader: Draw your cards!

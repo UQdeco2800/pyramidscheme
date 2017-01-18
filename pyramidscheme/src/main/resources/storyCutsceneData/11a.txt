@@ -1,0 +1,23 @@
+1; Heh: Well this isn't where I meant to send us at all.
+1; Heh: Apep's power is becoming difficult to handle, we don't have much time.
+1; The Duck: What the... 
+1; The Duck: This place looks like my home.
+1; Heh: This dark and dreary place? I feel sorry for you.
+1; The Duck: No, it's different. The pond... the grass.
+1; The Duck: It's the same, only darker.
+2; DarkDuck: Wah! What are you doing at my pond?
+2; The Duck: That looks just like me!
+2; Heh: Oh boy, two ducks?
+2; Heh: It appears we've ended up in an alternate timeline.
+2; Heh: And this Duck is you from that alternate timeline! Heheheh.
+2; DarkDuck: Wah! I'm DarkDuck, and I'm the only duck in these lands.
+2; DarkDuck: And I don't like strangers coming to my pond and discussing multiple timeline theory. Wah!
+2; Heh: Purple really isn't your colour... Heheh.
+2; DarkDuck: What are you talking about frog? That yellow fellow looks ridiculous!
+2; The Duck: No, you look ridiculous!
+2; Heh: Heheheh, you ducks really quack me up.
+2; DarkDuck: Enough of the duck puns! Only way you two weirdos are getting out of here alive...
+2; Heh: Let me guess, a card duel?
+2; DarkDuck:...
+2; DarkDuck: Wah.
+2; The Duck: Let's just get this over with!

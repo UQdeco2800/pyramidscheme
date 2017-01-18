@@ -1,0 +1,54 @@
+allprojects {
+    group = 'uq.deco2800.pyramidscheme'
+    version '1.0-SNAPSHOT'
+}
+
+configurations.all {
+    // check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'application'
+    apply plugin: 'eclipse';
+    apply plugin: 'idea';
+    apply plugin: 'jacoco';
+
+    jacoco {
+          toolVersion = "0.7.7.201606060606"
+    }
+
+    test {
+      jacoco {
+          append = false
+          destinationFile = file("$buildDir/jacoco/jacocoTest.exec")
+      }
+    }
+
+    tasks.withType(Javadoc) {
+      options.addStringOption('Xdoclint:none', '-quiet')
+    }
+
+    javadoc {
+      options.tags = ['require', 'ensure']
+    }
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenLocal()
+        maven { url 'http://deco2800-artifactory.uqcloud.net/artifactory/libs-release' }
+    }
+    dependencies {
+        compile(group: 'uq.deco2800.singularity', name: 'common', version: '0.6-SNAPSHOT', changing: true) {}
+        compile(group: 'uq.deco2800.singularity', name: 'clients', version: '0.6-SNAPSHOT', changing: true) {}
+
+        testCompile group: 'junit', name: 'junit', version: '4.11'
+
+        compile group: 'org.slf4j', name:'slf4j-api', version: '1.7.12'
+
+        compile group: 'com.esotericsoftware.yamlbeans', name: 'yamlbeans', version: '1.08'
+    }
+
+}

@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<cards>
+	<card>
+    	<class>minion</class>
+        <name>Ace Hentura</name>
+        <image>AceHentura.png</image>
+        <unbox>UnboxedAceHentura.png</unbox>
+        <attack>1</attack>
+        <defense>1</defense>
+        <rank>1</rank>
+        <dust>1</dust>
+		<hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Adventurous Duckling</name>
+        <image>AdventurousDuckling.png</image>
+        <unbox>UnboxedAdventurousDuckling.png</unbox>
+        <defense>2</defense>
+        <rank>2</rank>
+        <dust>1</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Alexander the Duck</name>
+        <image>Alexander the Duck.png</image>
+        <unbox>AlexUnboxed.png</unbox>
+        <attack>4</attack>
+        <defense>4</defense>
+        <rank>4</rank>
+        <dust>4</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+        <class>minion</class>
+        <name>Atilla The Duck</name>
+        <image>AtillaTheDuck.png</image>
+        <unbox>AtillaTheDuckUnboxed.png</unbox>
+        <defense>3</defense>
+        <rank>5</rank>
+        <dust>3</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Big Fat ol' Duck</name>
+        <image>bigfatduck.png</image>
+        <unbox>UnboxedBigFatDuck.png</unbox>
+        <attack>2</attack>
+        <defense>6</defense>
+        <rank>3</rank>
+        <dust>4</dust>
+	    <hidden>true</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Charging Duck</name>
+        <image>duckcharing.png</image>
+        <unbox>UnboxedDuckCharing.png</unbox>
+        <defense>2</defense>
+        <rank>2</rank>
+        <dust>1</dust>
+	    <hidden>false</hidden>
+        <action>Charge</action>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Crazed Duckling</name>
+        <image>crazedduck.png</image>
+        <unbox>UnboxedCrazedduck.png</unbox>
+        <attack>2</attack>
+        <defense>5</defense>
+        <rank>3</rank>
+        <dust>4</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Double Headed Duck</name>
+        <image>doublehead.png</image>
+        <unbox>UnboxedDoublehead.png</unbox>
+        <attack>2</attack>
+        <defense>2</defense>
+        <rank>2</rank>
+        <dust>2</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Duckling Reinforcements</name>
+        <image>DucklingReinforcements.png</image>
+        <unbox>DucklingReinforcementsUnboxed.png</unbox>
+        <attack>2</attack>
+        <defense>4</defense>
+	    <rank>1</rank>
+	    <hidden>true</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Duck Norris</name>
+        <image>Duck Norris.png</image>
+        <unbox>unboxed Duck Norris.png</unbox>
+        <attack>10</attack>
+        <defense>8</defense>
+        <rank>5</rank>
+	    <hidden>true</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Duck Norris Jr</name>
+        <image>DuckNorrisJr.png</image>
+        <unbox>DuckNorrisJrUnboxed.png</unbox>
+        <rank>4</rank>
+	    <hidden>false</hidden>
+	    <sibling>Duck Norris Jr</sibling>
+	    <parent>Duck Norris</parent>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Duck Trapper</name>
+        <image>ducktrapper.png</image>
+        <unbox>UnboxedDuckTrapper.png</unbox>
+        <attack>3</attack>
+        <defense>1</defense>
+        <rank>2</rank>
+        <dust>2</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Duckzilla</name>
+        <image>duckzilla.png</image>
+        <unbox>UnboxedDuckzillla.png</unbox>
+        <attack>3</attack>
+        <defense>5</defense>
+        <rank>3</rank>
+	    <hidden>false</hidden>
+    </card>
+    <!-- Wrong Image -->
+    <card>
+    	<class>minion</class>
+        <name>Ducthulhu</name>
+        <image>Para Duck.png</image>
+        <attack>10</attack>
+        <defense>10</defense>
+        <rank>1</rank>
+        <dust>8</dust>
+	    <hidden>true</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Edgar Allen Crow</name>
+        <image>Edgar Allen Crow.png</image>
+        <unbox>unboxed Edgar Allen Crow.png</unbox>
+        <attack>3</attack>
+        <defense>3</defense>
+        <rank>2</rank>
+        <dust>3</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Eggolus</name>
+        <image>Eggolus.png</image>
+        <unbox>unboxed Eggolus.png</unbox>
+        <attack>2</attack>
+        <defense>2</defense>
+        <rank>2</rank>
+        <dust>2</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Exploduck</name>
+        <image>Exploduck.png</image>
+        <unbox>ExploduckUnboxed.png</unbox>
+        <attack>1</attack>
+        <defense>6</defense>
+        <rank>4</rank>
+        <dust>3</dust>
+	    <hidden>false</hidden>
+        <action>Explode</action>
+    </card>
+    <card>
+		<class>minion</class>
+		<name>Holy Duck</name>
+		<image>holy duck fixed.png</image>
+		<unbox>holy duck new unboxed.png</unbox>
+		<attack>2</attack>
+		<defense>6</defense>
+		<hidden>false</hidden>
+        <action>DoubleStrike</action>
+	</card>
+    <card>
+		<class>minion</class>
+		<name>Duck of the Heavens</name>
+		<image>duck of the heavens.png</image>
+		<unbox>duck of the heavens new unboxed.png</unbox>
+		<attack>4</attack>
+		<defense>3</defense>
+		<rank>3</rank>
+		<dust>3</dust>
+		<hidden>false</hidden>
+        <action>Revival</action>
+	</card>-->
+    <card>
+    	<class>minion</class>
+        <name>King Duck</name>
+        <image>King Penduckling.png</image>
+        <attack>5</attack>
+        <defense>3</defense>
+        <rank>5</rank>
+        <dust>4</dust>
+	    <hidden>true</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>King Penduckling</name>
+        <image>King Penduckling.png</image>
+        <unbox>unboxed King Penduckling.png</unbox>
+        <attack>5</attack>
+        <defense>4</defense>
+        <rank>5</rank>
+        <dust>4</dust>
+	    <hidden>false</hidden>
+	    <sibling>King Penduckling</sibling>
+	    <parent>King Duck</parent>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Little Fat ol' Duck</name>
+        <image>littlefatduck.png</image>
+        <unbox>UnboxedLittleFatDuck.gif</unbox>
+        <attack>1</attack>
+        <defense>4</defense>
+        <rank>2</rank>
+        <dust>2</dust>
+	    <hidden>false</hidden>
+	    <sibling>Little Fat ol' Duck</sibling>
+	    <parent>Big Fat ol' Duck</parent>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Mace Wielding Duck</name>
+        <image>macewindu'ck.png</image>
+        <unbox>UnboxedMacewindu'ck.png</unbox>
+        <attack>3</attack>
+        <defense>2</defense>
+        <rank>2</rank>
+        <dust>2</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Medical Duck</name>
+        <image>medicalduck.png</image>
+        <unbox>UnboxedMedicalDuck.png</unbox>
+        <attack>0</attack>
+        <defense>0</defense>
+        <rank>1</rank>
+        <dust>1</dust>
+	    <hidden>false</hidden>
+        <action>Revival</action>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Mummy Duck</name>
+        <image>Mummy Duck.png</image>
+        <unbox>unboxed Mummy Duck.png</unbox>
+        <attack>2</attack>
+        <defense>2</defense>
+        <rank>4</rank>
+        <dust>2</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>On Duty Armoury</name>
+        <image>ondutyAmoury.png</image>
+        <unbox>UnboxedOn-duty.png</unbox>
+        <defense>2</defense>
+        <rank>1</rank>
+        <dust>2</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Poisoned Tipped Duck</name>
+        <image>poisoned-duck.png</image>
+        <unbox>UnboxedPoisonedDuck.png</unbox>
+        <attack>1</attack>
+        <defense>5</defense>
+        <rank>1</rank>
+        <dust>2</dust>
+	    <hidden>false</hidden>
+	    <action>AttackCounter</action>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Quack the Ripper</name>
+        <image>Quack the Ripper.png</image>
+        <unbox>unboxed Quack the Ripper.png</unbox>
+        <attack>4</attack>
+        <defense>2</defense>
+        <rank>3</rank>
+        <action>DoubleStrike</action>
+        <dust>3</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+		<class>minion</class>
+		<name>Relentless Borker</name>
+		<image>nullCard.png</image>
+		<attack>1</attack>
+		<defense>1</defense>
+		<rank>1</rank>
+		<dust>1</dust>
+		<hidden>true</hidden>
+	</card>
+    <card>
+    	<class>minion</class>
+        <name>Shielded Sorceress</name>
+        <image>shileded-sorceress.png</image>
+        <unbox>UnboxedShilededSorceress.png</unbox>
+        <attack>2</attack>
+        <defense>3</defense>
+        <rank>2</rank>
+        <dust>2</dust>
+	    <hidden>false</hidden>
+        <action>SpellShield</action>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Sir Galaduck</name>
+        <image>Sir Galaduck.png</image>
+        <unbox>unboxed Sir Galaduck.png</unbox>
+        <attack>2</attack>
+        <rank>2</rank>
+        <dust>4</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Simple Duck</name>
+        <image>SimpleDuck.png</image>
+        <unbox>SimpleDuckUnboxed.png</unbox>
+        <attack>1</attack>
+        <defense>1</defense>
+        <rank>1</rank>
+        <dust>1</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+		<class>minion</class>
+		<name>Super Duck</name>
+		<image>super duck fixed.png</image>
+		<unbox>super duck new unboxed.png</unbox>
+		<defense>3</defense>
+		<rank>5</rank>
+		<hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Squawk Leader</name>
+        <image>SquawkLeader.png</image>
+        <attack>4</attack>
+        <defense>4</defense>
+        <rank>5</rank>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Sweduck</name>
+        <image>Sweduck.png</image>
+        <unbox>SweduckUnboxed.png</unbox>
+        <rank>4</rank>
+        <dust>3</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>The Black Cat</name>
+        <image>The Black Cat.png</image>
+        <unbox>unboxed The Black Cat.png</unbox>
+        <attack>3</attack>
+        <defense>2</defense>
+        <rank>5</rank>
+        <dust>3</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Tutanquackum</name>
+        <image>Tutanquackum.png</image>
+        <unbox>unboxed Tutanquackum.png</unbox>
+        <attack>3</attack>
+        <defense>2</defense>
+        <rank>5</rank>
+        <dust>3</dust>
+	    <hidden>false</hidden>
+    </card>
+    <card>
+    	<class>minion</class>
+        <name>Useless Duck</name>
+        <image>useless-duck.png</image>
+        <unbox>UnboxedUselessDuck.png</unbox>
+        <attack>1</attack>
+        <defense>1</defense>
+        <rank>1</rank>
+        <dust>1</dust>
+	    <hidden>false</hidden>
+	    <sibling>Useless Duck</sibling>
+	    <parent>Duckling Reinforcements</parent>
+    </card>
+	<card>
+    	<class>minion</class>
+        <name>Willing sacrifice</name>
+        <image>willing-Sacrifice.png</image>
+        <unbox>UnboxedWillingSacrifice.png</unbox>
+        <attack>1</attack>
+        <defense>2</defense>
+		<rank>1</rank>
+		<dust>1</dust>
+		<hidden>false</hidden>
+		<sibling>Willing sacrifice</sibling>
+		<parent>Duckling Reinforcements</parent>
+	</card>
+</cards>

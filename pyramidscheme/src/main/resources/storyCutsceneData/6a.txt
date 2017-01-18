@@ -1,0 +1,20 @@
+1; Your gut wrenches as you fling out of the portal. You'll probably never get used to this time travelling business.
+1; The Duck: Eurgh. I feel awful.
+1; Heh: Heheheh, yeah that'll happen your first few times. But you get used to it.
+1; Heh: Just try to avoid eating 30 minutes before time travelling.
+1; The Duck: I'll keep that in mind.
+1; The Duck: So where the hell are we?
+1; Heh: Nazi Germany, 1942. We're here to challenge one of Apep's most loyal minions of chaos.
+1; Heh: Adolf Hitler.
+1; The Duck: Where do we find him.
+1; Heh: Shouldn't be too hard, guy has a hell of a moustache.
+1; Heh: There he is over there.
+2; Heh: Hitler. We meet again.
+2; Adolf: Sie Frosch wieder? Ich dachte, Sie würden Ihre Lektion letzten Mal gelernt haben.
+2; The Duck: What did he say?
+2; Heh: Don't worry I know a little German.
+2; Heh: Nicht schon wieder wiederholen. Du wirst diese Zeit zu quaken.
+2; Adolf: Nein!
+2; Heh: Heheheh, alright he's all yours now.
+2; The Duck: Huh?
+2; Heh: Just get your Kartendeck out.

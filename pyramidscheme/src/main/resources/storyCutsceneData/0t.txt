@@ -1,0 +1,6 @@
+image; dialoguea
+imagea; dialogueb
+imageb; dialoguec
+image; dialogued
+image; dialoguee
+imagea; dialoguef

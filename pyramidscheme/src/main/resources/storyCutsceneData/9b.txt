@@ -1,0 +1,6 @@
+1; Lion: Hmm, you're smarter than the average chew toy...
+1; Duck: A deal's a deal. Leave me alone.
+2; Lion: Sure, whatever. Goodbye little chew toy.
+2; Duck: Ok Heh, get me out of here.
+2; Heh: Alright, fine fine. Hold on to something then.
+0; portal

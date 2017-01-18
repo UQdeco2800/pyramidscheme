@@ -1,0 +1,16 @@
+1; Long ago, in Ancient Egypt old and dark forces begin to stir.
+1; All of time and space is at peril of succumbing to the evil schemes of these ancient spirits.
+1; But yet a hero rises, in the most unlikely of places...
+1; Quack.
+1; The smell of rot fills the air in the deepest cells of the Pharaoh's dungeon.
+1; A mysterious voice calls out to you...
+1; Mysterious Voice: "Hey you there. The duck. Who are you?"
+1; Mysterious Voice: "Not much for talking huh? Suit yourself."
+2; Br'Ock: "I'm Br'Ock by the way. And this here is my cell."
+2; Br'Ock: "And I don't much like sharing it. Especially with some duck. Do they think I'm an animal too?"
+2; Br'Ock: "Not that I care what any of them think. I used to be the world's best card player after all."
+2; Br'Ock: "Don't give me that look. It's true." 
+2; Br'Ock: "I was too good, so they threw me in here. Spiteful lot."
+2; Br'Ock: "You don't play do you?"
+2; You quack back at this strange man, but he doesn't seem to understand you.
+2; Br'Ock: "Right, well let's give it a try anyway shall we? Though I doubt you'll stand much of chance."

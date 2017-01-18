@@ -1,0 +1,47 @@
+
+#backButton {
+	-fx-background-image: url("../buttons/menuButton.png");
+	-fx-text-fill: white;
+	-fx-background-size: 80 30;
+	-fx-background-color: transparent;
+}
+
+#backButton:hover {
+	-fx-border-color: #FFF;
+}
+
+#cardViewButton {
+	-fx-background-image: url("../buttons/menuButton.png");
+	-fx-text-fill: white;
+	-fx-background-size: 120 30;
+	-fx-background-color: transparent;
+}
+
+#cardViewButton:hover {
+	-fx-border-color: #FFF;
+}
+
+#openButton {
+	-fx-background-image: url("../buttons/openButton.png");
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-background-size: 100 40;
+	-fx-background-color: transparent;
+}
+
+#openButton:hover {
+	-fx-border-color: #FFF;
+}
+
+#buyButton {
+	-fx-background-image: url("../buttons/buyButton.png");
+	-fx-background-size: 243px 50px;
+	-fx-background-radius: 0px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-background-color: transparent;
+}
+
+#buyButton:hover {
+	-fx-border-color: #FFF;
+}

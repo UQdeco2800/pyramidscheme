@@ -1,0 +1,21 @@
+1; The Duck: So where are we then?
+1; Heh: Oh, 13th century Mongolia. It appears Apep wanted you dead pretty bad. Hehehe.
+1; The Duck: Why, what's so bad about 13th century Mongolia?
+2; Mongolian Beef: Hold there questionable characters!
+2; Heh: Mongolian Beef!
+2; Mongolian Beef: You little beasts are trespassing on my steppe.
+2; Heh: Actually we were just leaving.
+2; Mongolian Beef: Not a chance! You have dishonoured me by your actions.
+2; Heh: Perhaps we can cut a deal?
+2; Mongolian Beef: Unlikely. I already hunger for the taste of frog and duck for supper.
+2; Heh: I challenge you to a duel Beefy!
+2; Mongolian Beef: Seriously?
+2; Heh: Heheheh. No not an actual duel. A card duel. And not me, but my companion here.
+2; The Duck: You bastard.
+2; Mongolian Beef: Hmm... a card duel you say? Very well I accept your challenge.
+2; Mongolian Beef: But if I win I get to eat you both.
+2; Heh: And if my companion wins we get to eat you!
+2; Heh: Heheheh, nah not really.
+2; Heh: We'll just leave.
+2; Mongolian Beef: You are a strange frog, but I accept the terms.
+2; Mongolian Beef: Prepare yourself duck, your life is on the line!

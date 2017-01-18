@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="bossSelectScreen" cacheShape="false" focusTraversable="true" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: black;" stylesheets="@../css/bossSelect.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uq.deco2800.pyramidscheme.controllers.BossSelectController">
+    <children>
+      <StackPane fx:id="bossSelectScreen1" prefHeight="600.0" prefWidth="900.0" stylesheets="@../css/storymenu.css" />
+      <VBox alignment="CENTER" prefHeight="600.0" prefWidth="900.0" StackPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="213.0" fitWidth="516.0" preserveRatio="true">
+               <image>
+                  <Image url="@../storyModeImages/bossSelectTitle.png" />
+               </image>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="255.0" prefWidth="900.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="300.0">
+                     <children>
+                        <Button id="boss1Button" fx:id="boss1Button" maxWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Bro'ck">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="10.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button id="boss2Button" fx:id="boss2Button" maxWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Prison Guard">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button id="boss3Button" fx:id="boss3Button" layoutX="218.0" layoutY="379.0" maxWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="900.0" text="Priestess">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button id="boss4Button" fx:id="boss4Button" layoutX="218.0" layoutY="424.0" maxWidth="200.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="200.0" text="Pharaoh">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="300.0">
+                     <children>
+                        <Button id="boss5Button" fx:id="boss5Button" maxWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Mongolian Beef">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="10.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button id="boss6Button" fx:id="boss6Button" layoutX="218.0" layoutY="379.0" maxWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="900.0" text="Hitler">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button id="boss7Button" fx:id="boss7Button" maxWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Napoleon">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button id="boss8Button" fx:id="boss8Button" layoutX="218.0" layoutY="424.0" maxWidth="200.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="200.0" text="Duck Vader">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="300.0">
+                     <children>
+                        <Button id="boss9Button" fx:id="boss9Button" maxWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Lion">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="10.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button id="boss10Button" fx:id="boss10Button" maxWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Coaster">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button id="boss11Button" fx:id="boss11Button" maxWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="900.0" text="Dark Duck">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button id="boss12Button" fx:id="boss12Button" layoutX="218.0" layoutY="379.0" maxWidth="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="900.0" text="Apophis">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button id="backButton" fx:id="backButton" layoutX="218.0" layoutY="424.0" maxWidth="100.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="900.0" text="Back">
+                           <VBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+    </children>
+</StackPane>

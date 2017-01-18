@@ -1,0 +1,25 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.button {
+    -fx-text-fill: black;
+    -fx-background-clip: text;
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-background-color: linear-gradient(#00000000, 	#00ffff);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 1,1,1,1;
+}
+#bossSelectScreen {
+	-fx-background-color:black;
+}
+.button:hover {
+    -fx-text-fill: white;    
+	-fx-effect: dropshadow( three-pass-box , white , 5, 0.0 , 0 , 1 );
+}
+
+#timeText {
+    -fx-font: 25px Tahoma;
+    -fx-fill: slategray;
+    -fx-stroke-width: 1;
+}

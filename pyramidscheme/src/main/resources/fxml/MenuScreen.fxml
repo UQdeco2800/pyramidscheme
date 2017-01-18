@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="menuScreen" prefHeight="600.0" prefWidth="900.0" stylesheets="@../css/menuscreen.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uq.deco2800.pyramidscheme.controllers.MenuController">
+	<children>
+      <Pane prefHeight="200.0" prefWidth="300.0">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="900.0">
+               <image>
+                  <Image url="@../gameImages/Japan%20Scene.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Pane layoutX="200.0" prefHeight="600.0" prefWidth="900.0">
+               <children><ComboBox id="DeckSelector" fx:id="deckSelect" layoutX="333.0" layoutY="264.0" prefHeight="29.0" prefWidth="171.0" promptText="Deck" style="-fx-background-size: 172px 50px;;" styleClass="standardButton" />
+                  <Button id="newBasicMatchButton" fx:id="newBasicMatchButton" layoutX="333.0" layoutY="87.0" maxWidth="900.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="243.0" styleClass="standardButton" text="Play">
+                     <font>
+                        <Font name="Open Sans" size="18.0" />
+                     </font></Button>
+                  <Button id="hexGridButton" fx:id="hexGridButton" layoutX="333.0" layoutY="183.0" maxWidth="300.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="243.0" styleClass="standardButton" text="Advanced Game" />
+	               <Button id="storyModeButton" fx:id="storyModeButton" layoutX="333.0" layoutY="143.0" maxWidth="900.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="243.0" styleClass="standardButton" text="Story Mode" />
+                  <Button id="viewDeckButton" fx:id="viewDeckButton" layoutX="513.0" layoutY="264.0" maxWidth="900.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="63.0" style="-fx-background-size: 63px 40px;" styleClass="standardButton" text="View" />
+                  <Button id="openPacksButton" fx:id="openPacksButton" layoutX="333.0" layoutY="305.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="243.0" styleClass="standardButton" text="Open Card Packs" />
+                  <Button id="achievementButton" fx:id="achievementButton" layoutX="333.0" layoutY="387.0" maxWidth="900.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="243.0" styleClass="standardButton" text="Achievements" />
+	               <Button id="playerInfoButton" fx:id="playerInfoButton" layoutX="333.0" layoutY="345.0" maxWidth="900.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="243.0" styleClass="standardButton" text="Player Info" />
+	               <Button id="chatRoomButton" fx:id="chatRoomButton" disable="true" layoutX="333.0" layoutY="426.0" maxWidth="900.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="243.0" styleClass="standardButton" text="Chat" />
+                   <Button id="TutModeButton" fx:id="tutModeButton" layoutX="333.0" layoutY="503.0" maxWidth="900.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="243.0" styleClass="standardButton" text="Tutorial Mode" />
+                   <Button id="settingsButton" fx:id="settingsButton" layoutX="333.0" layoutY="467.0" maxWidth="900.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="243.0" style="-fx-font-size: 1em;" styleClass="standardButton" text="Settings" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Button>
+                  <Label fx:id="welcomeLabel" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="46.0" layoutY="15.0" prefHeight="17.0" prefWidth="236.0" textAlignment="RIGHT" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Button id="hexGridButton" fx:id="multiplayerButton" layoutX="333.0" layoutY="222.0" maxWidth="300.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="243.0" styleClass="standardButton" text="Multiplayer Beta" />
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+    </children>
+</StackPane>

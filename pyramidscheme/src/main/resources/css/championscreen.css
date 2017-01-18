@@ -1,0 +1,28 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.label {
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#championContainer > * {
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
+.button {
+    -fx-background-color: #33994D;
+    -fx-text-fill: white;
+}
+
+#championContainer .button {
+    -fx-background-color: Transparent;
+    
+}
+
+
+
+//agency fb 28
+
+

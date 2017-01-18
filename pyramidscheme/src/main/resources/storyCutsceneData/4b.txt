@@ -1,0 +1,8 @@
+1; Pharaoh: In... Inconceivable. 
+1; Pharaoh: I lost... to a mere duck.
+1; The Pharaoh seems to be taking his loss very poorly. You offer a few quacks of support to cheer him up.
+1; Pharaoh: No one can know this. My reputation will be ruined.
+1; Pharaoh: You are a gracious winner duck, but I am poor loser.
+1; Pharaoh: For the sake of the Kingdom, we shall have to execute you after all.
+1; Pharaoh: I am sure you understand, my feathered friend.
+1; Pharaoh: Guards! Bring me the ducks head!

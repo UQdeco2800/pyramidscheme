@@ -1,0 +1,12 @@
+1; Napoleon: Sacre Bleu!
+1; Napoleon: I cannot believe I lost!
+1; Heh: One of history's greatest strategic masterminds and he loses at cards to a duck.
+1; Heh: Really makes you think. Heheheh.
+1; Napoleon: I do hope this isn't a bad omen. I have an important battle coming up today.
+1; The Duck: Oh, whereabouts?
+1; Napoleon: Waterloo.
+1; Heh: Oh boy, well would you look at the time!
+1; The Duck: Well good luck with the battle Napoleon.
+1; Napoleon: Au Revoir little duck!
+1; Heh: Heheheh... time to go!
+0; portal

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.net.URL?>
+
+
+<ImageView fitHeight="600.0" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../gameImages/Japan Scene.png" />
+      </image>
+   </ImageView>
+
+			<VBox fx:id="leftBox" minWidth="70" >
+				<Label fx:id="friendsTitleLabel" Text=" Chat With Friends!" stylesheets="/css/ChatScreenStyle.css" GridPane.columnIndex="1" minWidth="250"/>
+				<TextField fx:id="channelField" minWidth="70"  stylesheets="/css/ChatScreenStyle.css"  promptText="Add New Friends" visible="true" />
+				
+				<ListView fx:id="channelList" VBox.vgrow="ALWAYS" stylesheets="/css/ChatScreenStyle.css"/>
+			</VBox>
+
+		<VBox HBox.hgrow="ALWAYS" minWidth="200">
+		<GridPane fx:id="nameBanner">
+			<ImageView fx:id="theirAvatar" fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" >
+		      				
+			</ImageView>
+		<Label fx:id="channelTitleLabel" Text="" stylesheets="/css/ChatScreenStyle.css" GridPane.columnIndex="1" minWidth="250"/>
+		</GridPane>
+

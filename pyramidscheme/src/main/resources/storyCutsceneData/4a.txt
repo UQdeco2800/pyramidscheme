@@ -1,0 +1,7 @@
+1; Pharaoh: Welcome young fowl.
+1; Pharaoh: Tell me. Are the tales of your exploits true?
+1; The Pharaoh glares at you expectantly.
+1; You rather awkwardly offer a few stunted quacks in explanation.
+1; Pharaoh: I shall take your unintelligible quacking to mean that the stories are true.
+1; Pharaoh: Very well then, prepare yourself for honourable card battle.
+1; Pharaoh: YOU DUCK!

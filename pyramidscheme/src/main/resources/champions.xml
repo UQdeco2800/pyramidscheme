@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<champions>
+
+
+	<champion>
+		<name>Rallard</name>
+		<image>rallard.png</image>
+		<primary>
+			<class>TargetDamage</class>
+			<name>Smite</name>
+			<image>smite.gif</image>
+			<cost>5</cost>
+			<damage>5</damage>
+		</primary>
+		<secondary>
+			<class>TargetHeal</class>
+			<name>Radiant Sun</name>
+			<image>radiantSun.gif</image>
+			<cost>3</cost>
+			<health>2</health>
+		</secondary>
+	</champion>
+	<champion>
+		<name>Quackubis</name>
+		<image>quackubis.png</image>
+		<primary>
+			<class>MinionRevive</class>
+			<name>Arise</name>
+			<image>arise.gif</image>
+			<cost>6</cost>
+		</primary>
+		<secondary>
+			<class>TargetEnrage</class>
+			<name>Closer to Death</name>
+			<image>closerToDeath.gif</image>
+			<cost>3</cost>
+			<damageDealt>2</damageDealt>
+			<attackBuffed>3</attackBuffed>
+		</secondary>
+	</champion>
+	<champion>
+		<name>Fowl Sphinx</name>
+		<image>fowlSphinx.png</image>
+		<primary>
+			<class>MinionSummon</class>
+			<name>Commanding Quack</name>
+			<image>commandingQuack.gif</image>
+			<cost>3</cost>
+			<minion>Relentless Borker</minion>
+		</primary>
+		<secondary>
+			<class>TargetDamage</class>
+			<name>Scratch</name>
+			<image>scratch.gif</image>
+			<cost>2</cost>
+			<damage>1</damage>
+		</secondary>
+	</champion>
+
+
+	<champion>
+		<name>Khepri</name>
+		<image>khepri.png</image>
+		<primary>
+			<class>TargetAnnihilate</class>
+			<name>Annihilate</name>
+			<image>annihilate.gif</image>
+			<cost>8</cost>
+		</primary>
+		<secondary>
+			<class>TargetIronSkin</class>
+			<name>Scarrab Shell</name>
+			<image>scarrabShell.gif</image>
+			<cost>3</cost>
+			<healthMult>2</healthMult>
+		</secondary>
+	</champion>
+</champions>

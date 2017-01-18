@@ -1,0 +1,67 @@
+/* for hiding header tab control - uncomment when buttons not needed*/
+
+.tab-pane {
+    -fx-tab-max-height: 0;
+}
+.tab-pane .tab-header-area, .tab{
+    -fx-padding: 0;
+    visibility: hidden;
+}
+
+/* end header tab control */
+
+.pagination .pagination-control .number-button {
+	    -fx-background-color: #FFFFFF;
+		-fx-shape: "m75,75l20,-20l20,20l-20,20l-20,-20z";
+		-fx-border-color: #000000;
+		-fx-padding: 0 10 2 10px;
+}
+
+.pagination .pagination-control .number-button:selected {
+	    -fx-background-color: #6688FF;	
+}
+
+.pagination .pagination-control .left-arrow, .right-arrow {
+    -fx-background-color: #00FF00;    
+    -fx-border-color: #000000;
+}
+
+.pagination .pagination-control .left-arrow-button, .right-arrow-button {
+    -fx-background-color: #FFFFFF;
+}
+
+#timeText {
+    -fx-font: 25px Tahoma;
+    -fx-fill: slategray;
+    -fx-stroke-width: 1;
+}
+
+#cardPane {
+	-fx-background-image: url("/gameImages/scroll.png");
+	-fx-background-size: 700px 545px;
+}
+
+#verticleBox {
+	-fx-background-image: url("/gameImages/woodgrainDark.png");
+	-fx-border-width: 0px 0px 2px 0px;
+	-fx-border-color: #FFD700;
+}
+
+.tabBox {
+	-fx-background-image: url("/gameImages/woodgrainDark.png");
+	-fx-border-width: 0px 0px 2px 0px;
+	-fx-border-color: #FFD700;
+}
+
+#marketPane {
+	-fx-background-image: url("/gameImages/woodgrainDark.png");
+	-fx-border-width: 0px 0px 0px 2px;
+	-fx-border-color: #FFD700;
+	-fx-background-size: 200px 555px;
+}
+
+#deckPane {
+	-fx-background-image: url("/gameImages/woodgrainDark.png");
+	-fx-border-width: 0px 0px 0px 2px;
+	-fx-border-color: #FFD700;
+}

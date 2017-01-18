@@ -1,0 +1,18 @@
+1; Guard: Wait here you vile...duck!
+1; Guard: I will explain to the High Priestess of your demonic deeds.
+2; You feel uneasy. As though a small frog were watching you. You glance about, but sure enough there are no frogs here.
+3; Guard: That's the fiend! I told you it looked like a duck.
+3; High Priestess: A duck... yes.
+3; High Priestess: And you are certain that this demon transformed into a dragon and played cards with you?
+3; Guard: Yes that's right!
+3; Guard: Well... the card part anyway.
+3; High Priestess: I see.
+3; High Priestess: That will be enough from you. On your way Guard.
+3; Guard: As you wish my lady.
+3; Guard: And you, duck! Pray that this is the last time we cross paths!
+4; High Priestess: What a heated fellow, so full of passion. Such a waste to rot away guarding that dirty dungeon.
+4; High Priestess: Now I hardly think you are a demon.
+4; High Priestess: A demon would not be stupid enough to disguise itself as duck.
+4; High Priestess: But still, you have me intrigued duck.
+4; High Priestess: I once knew a frog that could tell the time, so perhaps there is some merit to your card playing abilities.
+4; High Priestess: Let's find out shall we?

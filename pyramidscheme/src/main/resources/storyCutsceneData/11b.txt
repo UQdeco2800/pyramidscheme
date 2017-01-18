@@ -1,0 +1,20 @@
+1; DarkDuck: Wah! You've bested me!
+1; Heh: And in doing so, you've bested yourself. In a way.
+1; The Duck: Let's try to avoid the philosophical nature of the situation.
+1; Heh: Right, we could be here for hours. Heheh.
+1; Heh: Well I think you're ready Duck.
+1; Heh: We've been through a lot together, and during that time you've proven yourself a formidable card player.
+1; Heh: And just now you've even beaten your evil alter ego.
+1; DarkDuck: Wah! Just because I'm dark doesn't mean I'm evil.
+1; Heh: Of course it does! Heheh.
+1; Heh: Anyway...
+1; Heh: I think you're ready to take on Apep.
+1; Heh: You're the only hope that this world has. Remember that.
+1; Heh: But don't let it distract you... try and focus on the card game.
+1; The Duck:...
+1; Heh: Aww look at me all nervous and blustering.
+1; Heh: Are you ready?
+1; The Duck: Ready as I'll ever be. Let's do this.
+1; DarkDuck: Wah, good luck yellow me.
+1; Heh: And here. We. Go.
+0; portal

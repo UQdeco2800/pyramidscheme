@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<StackPane fx:id="splashScreen" maxHeight="600.0" maxWidth="900.0" prefHeight="600" prefWidth="900" stylesheets="@../css/splashscreen.css" xmlns="http://javafx.com/javafx/8.0.102-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uq.deco2800.pyramidscheme.controllers.SplashScreenController">
+   <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true">
+      <image>
+         <Image url="@../gameImages/Splash%20Sreen.jpg" />
+      </image>
+   </ImageView>
+	<GridPane alignment="CENTER" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1">
+		<Label text="Pyramid Scheme" visible="false" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="0">
+		</Label>
+		<Label fx:id="errorLabel" textFill="red" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="7" />
+
+
+		<TextField fx:id="usernameField" promptText="Username" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets right="15.0" top="160.0" />  	
+         </GridPane.margin>
+         <tooltip>
+            <Tooltip text="Input username" />
+         </tooltip>
+         </TextField>
+		<PasswordField fx:id="passwordField" prefHeight="25.0" prefWidth="251.0" promptText="Password" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets right="15.0" />
+         </GridPane.margin>
+         <tooltip>
+            <Tooltip text="Input password" />
+         </tooltip>
+         </PasswordField>
+		
+
+		<Button fx:id="loginButton" alignment="CENTER" mnemonicParsing="false" prefWidth="251.0" text="Login" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+         <tooltip>
+            <Tooltip text="Login" />
+         </tooltip>
+         </Button>
+
+		<Separator prefHeight="1.0" prefWidth="183.0" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="30.0" right="30.0" />
+         </GridPane.margin></Separator>
+
+		<TextFlow textAlignment="CENTER" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="10">
+			<Hyperlink fx:id="registerButton" text="Create your own Account" textFill="WHITE" />
+			<Text fill="#c5c5c5"> or </Text>
+			<Hyperlink fx:id="loginGuestButton" text="Login as Guest" textFill="WHITE" />
+		</TextFlow>
+      <columnConstraints>
+         <ColumnConstraints />
+         <ColumnConstraints />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+         <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+      </rowConstraints>
+	</GridPane>
+</StackPane>

@@ -1,0 +1,4 @@
+#scrollBar {
+	-fx-background: none;
+	-fx-border-color: derive(gray, 80%);
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.ImageView?>
+
+<BorderPane fx:id="cardRewardScreen" id="BorderPane" stylesheets="@../css/RewardScreen.css" minHeight="600.0" minWidth="900.0" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.102-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uq.deco2800.pyramidscheme.controllers.RewardScreenController">
+    <top>
+    	<HBox prefHeight = "0.0">
+    	</HBox>
+    </top>
+    <center>
+    	<StackPane fx:id="displayPane" prefHeight="600.0" prefWidth="700.0">
+    		<AnchorPane prefHeight="600.0" prefWidth="700.0">
+	    		<Button id="backButton" fx:id="backButton" mnemonicParsing="false" 
+	    			text="Exit" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" prefWidth="80" prefHeight="25">
+	    			<tooltip>
+	                	<Tooltip text="Go back to main menu" />
+	               	</tooltip>
+	                <font>
+	                	<Font name="System Bold" size="13.0" />
+	                </font>
+	    		</Button>
+	    		<Button id="cardViewButton" fx:id="cardViewButton" mnemonicParsing="false" 
+	    			text="Card Library" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="100.0" prefWidth="120" prefHeight="25">
+	    			<tooltip>
+	                	<Tooltip text="Go to card library" />
+	               	</tooltip>
+	                <font>
+	                	<Font name="System Bold" size="13.0" />
+	                </font>
+	    		</Button>
+    		</AnchorPane>
+    	</StackPane>
+    </center>
+    <right>
+    	<StackPane fx:id="packListPane" prefWidth="200.0">
+    		<AnchorPane prefWidth="200.0">
+	    		<Label fx:id="numPacks" AnchorPane.topAnchor = "275" AnchorPane.leftAnchor = "50">
+	    		</Label>
+	    		<Button id="openButton" fx:id="openButton" text="Open" mnemonicParsing="false" AnchorPane.topAnchor="350" 
+	    			AnchorPane.leftAnchor="50" prefWidth = "100.0" prefHeight = "40.0">
+	    		</Button>
+	    		<Label fx:id="currencyLabel" AnchorPane.bottomAnchor = "105" AnchorPane.leftAnchor = "50">
+	    		</Label>
+	             <ImageView fx:id="goldenEggs" fitWidth="30" fitHeight="25" AnchorPane.bottomAnchor = "105" 
+	             	AnchorPane.leftAnchor = "140">
+	    		</ImageView>
+	    		<Button id="buyButton" fx:id="buyButton" text="Buy Card Pack (500)" mnemonicParsing="false" AnchorPane.bottomAnchor="40.0" 
+	    			AnchorPane.leftAnchor="25.0" prefWidth = "150.0" prefHeight = "50.0">
+	    		</Button>
+	    	</AnchorPane>
+	    </StackPane>
+    </right>
+</BorderPane>

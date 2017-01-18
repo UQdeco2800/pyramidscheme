@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+
+<BorderPane fx:id="championScreen" maxHeight="600.0" maxWidth="900.0" minHeight="600.0" minWidth="900.0" prefHeight="600.0" prefWidth="900.0" stylesheets="/css/championscreen.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uq.deco2800.pyramidscheme.controllers.ChampionScreenController">
+   <children>
+       <ImageView fitHeight="600.0" fitWidth="900.0">
+       	<image>
+       		<Image url="@../tutModeImages/championBackground.jpg" />
+       	</image>
+       </ImageView>
+   </children>
+    
+    <center>
+    	<GridPane id="championContainer" fx:id="championContainer">
+    		
+    	</GridPane>
+	</center>
+    
+    <bottom>
+    	<AnchorPane id="controlButtons">
+       <children>
+               <HBox AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="5">
+                  <children>
+                      <Button id="backButton" fx:id="backButton" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0">
+                      <graphic>
+            		      		<ImageView fitHeight="50.0" fitWidth="100.0" x="1.0" y="1.0">
+            		      			<image>
+            		      				<Image url="@../tutModeImages/skipbutton.png" />
+            		      			</image>
+            		      		</ImageView>
+      		      	</graphic>
+      		      	</Button>
+                  </children>
+               </HBox>
+       </children>
+        </AnchorPane>
+    </bottom>
+    
+    
+</BorderPane>

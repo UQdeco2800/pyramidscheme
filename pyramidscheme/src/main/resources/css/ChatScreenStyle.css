@@ -1,0 +1,30 @@
+.label {
+	-fx-font-size: 24pt;
+	-fx-font-family: "Agency FB Bold";
+	
+
+}
+.button{
+	-fx-padding:-5 -5 -5 -5;
+	-fx-background-radius: 50px;
+}
+.Image{
+	-fx-margin:0 0 0 0;
+}
+#channelField{
+	-fx-min-height: 30;
+}
+.list-view {
+	-fx-opacity: 0.75;
+}
+
+.popup {
+    -fx-background-color: cornsilk;
+    -fx-padding: 5;
+    -fx-border-color: lightblue; 
+    -fx-border-width: 4;
+    -fx-border-radius: 25px;
+    -fx-background-radius:25px;
+    -fx-font-size: 16;
+
+}

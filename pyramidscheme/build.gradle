@@ -1,0 +1,15 @@
+dependencies {
+   testCompile group: 'org.dbunit', name: 'dbunit', version: '2.5.1'
+   testCompile group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
+   testCompile group: 'org.easymock', name: 'easymock', version: '3.1'
+   testCompile group: 'org.powermock', name: 'powermock-module-junit4', version: '1.6.5'
+   testCompile group: 'org.powermock', name: 'powermock-api-easymock', version: '1.6.5'
+   testCompile "org.testfx:testfx-core:4.0.+"
+   testCompile "org.testfx:testfx-junit:4.0+"
+   testCompile "org.testfx:testfx-legacy:4.0.+", {
+       exclude group: "junit", module: "junit"
+   }
+   testCompile group: 'org.testfx', name: 'openjfx-monocle', version: '1.8.0_20'
+}
+
+mainClassName = "uq.deco2800.pyramidscheme.GameLauncher"

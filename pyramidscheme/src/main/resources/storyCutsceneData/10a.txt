@@ -1,0 +1,13 @@
+1; The Duck: Ok, this is different...
+1; Heh: Hmm... looks like you've passed through dimensions again.
+1; The Duck: So where am I now?
+1; Heh: You seem to be inside some sort of rollercoaster game.
+1; The Duck: Ooohhh, I love rollercoasters! Where are..
+2; Mysterious Spaceman: THIS IS NOT A ROLLERCOASTER GAME!!!  
+2; The Duck: Who are you?
+2; Lt. Davo: My name is Lieutenant Davo Duck.
+2; The Duck: Well Davo, I have to say I'm disappointed there aren't any rollercoasters.
+2; Lt. Davo: So am I, when I first found out I was so upset I starting shooting everything.
+2; Lt. Davo: Now everything is dead and I'm all alone.
+2; The Duck: How about a game of Pyramid Scheme to cheer you up?
+2; Lt. Davo: Sure, a game of Pyramid Scheme is far better than hanging out in a coaster world with no coasters!

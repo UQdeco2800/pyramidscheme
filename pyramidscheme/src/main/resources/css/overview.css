@@ -1,0 +1,22 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#complete {
+	-fx-border-color: #edc949;
+	-fx-border-width : 2;
+	-fx-border-radius:	7;
+}
+
+#username {
+    -fx-font: 25px Tahoma;
+    -fx-fill: slategray;
+    -fx-stroke-width: 1;
+	-fx-stroke: #1047A9;
+}
+#achievementTab{
+	-fx-border-color: red;
+	-fx-border-width : 2;
+}
+
+#statisticsTab{
+	-fx-border-color: blue;
+	-fx-border-width : 2;
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Tooltip?>
+<?import java.net.URL?>
+
+
+<StackPane fx:id="registrationScreen" prefHeight="600" prefWidth="900" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="uq.deco2800.pyramidscheme.controllers.RegistrationScreenController">
+   <ImageView fitHeight="600" fitWidth="900" pickOnBounds="true">
+      <image>
+         <Image url="@../gameImages/Registration.jpg" />
+      </image>
+   </ImageView>
+    <GridPane alignment="CENTER" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1">
+        <Label GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="0">
+            <font>
+                <Font size="32" />
+            </font>
+        </Label>
+
+        <Label fx:id="errorLabel" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+        <Label text="Username:" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <TextField fx:id="usernameField" promptText="Username" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+        <Label text="Password:" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <PasswordField fx:id="passwordField" promptText="Password" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+        <Label text="Verify Password:" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <PasswordField fx:id="verifyPasswordField" promptText="Verify Password" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+        <Button fx:id="createUserButton" mnemonicParsing="false" prefWidth="300.0" text="Create Account" textFill="#727272" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="7" />
+
+        <Separator GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="8" />
+ 
+        <Hyperlink fx:id="backtoLoginButton" text="Already Signed Up?" textFill="WHITE" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="9" />
+      <columnConstraints>
+         <ColumnConstraints />
+         <ColumnConstraints />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+      </rowConstraints>
+    </GridPane>
+</StackPane>
