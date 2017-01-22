@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 After gaining access, clone the repository
 
 ```
-git clone git@github.com:UQdeco2800/deco2800-2016-pyramid-scheme.git
+git clone git@github.com:UQdeco2800/pyramidscheme.git
 ```
 
 Build/install dependencies
@@ -38,7 +38,7 @@ In the project's root directory:
 
 ## API Reference/Wiki
 
-Consult the [Wiki](https://github.com/UQdeco2800/deco2800-2016-pyramid-scheme/wiki) for all documentation.
+Consult the [Wiki](https://github.com/UQdeco2800/pyramidscheme/wiki) for all documentation.
 
 ## Tools
 
